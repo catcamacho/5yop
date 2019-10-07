@@ -4,10 +4,8 @@
 
 
 setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
-
-set sub = $argv[1]	
 	
-	
+foreach sub ($argv)	
 echo
 echo "****************************************************"
 echo
@@ -33,3 +31,4 @@ echo "                   Completed "$sub
 echo
 echo "****************************************************"
 
+end
