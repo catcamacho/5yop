@@ -3,11 +3,9 @@
 #Usage: applyWMedits subjectFolder
 
 
-set source_dir=/moochie/Cat/Aggregate_anats/subjects_dir
-setenv SUBJECTS_DIR /home/camachocm2/Analysis/aggregate_anats/temp_Subjdir
+setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
 set sub = $argv[1]
 
-mv $source_dir/$sub $SUBJECTS_DIR
 if(-e $SUBJECTS_DIR/$sub) then
 
 	#find how many edits have been applied and copy the brainmask and wm for record into next number

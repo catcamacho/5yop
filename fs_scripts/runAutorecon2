@@ -3,7 +3,7 @@
 # Usage: regenSurfaces subjectFolder
 
 
-setenv SUBJECTS_DIR /Applications/freesurfer/subjects
+setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
 
 set sub = $argv[1]	
 	

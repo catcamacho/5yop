@@ -1,0 +1,10 @@
+tkmedit started: Mon Oct  7 11:37:21 2019
+
+	/Applications/freesurfer/tktools/tkmedit.bin t1w_1 brainmask.mgz -aux T1.mgz -tcl /Users/dendrite/Desktop/Jay/5yop/fs_scripts/tkmedit_BMedit.tcl 
+
+$Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name:  $
+Set user home dir to /Users/dendrite/Desktop/Jay/5yop/fs_scripts
+Set subject home dir to /Users/dendrite/Desktop/Jay/freesurfer/t1w_1
+Using interface file /Applications/freesurfer/tktools/tkmedit.tcl
+Tcl: Successfully parsed tkmedit.tcl
+Tcl: Successfully parsed tkm_functional.tcl

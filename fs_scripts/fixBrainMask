@@ -4,8 +4,8 @@
 #This script enables you to 1) remove dura/skull and 2)add back in missing chunks of brain.
 
 set sub = $argv[1]
-set bin = /home/camachocm2/Analysis/aggregate_anats/child_cortex/fs_scripts
-setenv SUBJECTS_DIR /home/camachocm2/Analysis/aggregate_anats/temp_Subjdir
+set bin = /Users/dendrite/Desktop/Jay/5yop/fs_scripts
+setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
 
 echo
 echo

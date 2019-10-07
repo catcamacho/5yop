@@ -2,8 +2,8 @@
 
 #Usage: editWM subjectFolder
 
-set bin = /home/camachocm2/Analysis/aggregate_anats/child_cortex/fs_scripts
-setenv SUBJECTS_DIR /moochie/Cat/Aggregate_anats/subjects_dir
+set bin = /Users/dendrite/Desktop/Jay/5yop/fs_scripts
+setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
 set sub = $argv[1]
 
 

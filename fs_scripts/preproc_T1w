@@ -3,19 +3,19 @@
 # Usage: preproc_T1w subjectFolder [subjectFolder subjectFolder...]
 # subjectFolder =  the subject's folder name (e.g. 001-T1). Multiple can be entered at once.
 
-setenv SUBJECTS_DIR /home/camachocm2/Analysis/aggregate_anats/temp_Subjdir
+setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
 
 
 foreach sub ($argv)
-	set raw_dir = /home/camachocm2/Analysis/aggregate_anats/temp_Subjdir/${sub}
-	set rawdata = ${raw_dir}/t1w.nii.gz
+	set raw_dir = /Users/dendrite/Desktop/Jay/raw/${sub}
+	set rawdata = ${raw_dir}.nii.gz
 
 	if (-e $rawdata) then
 		echo '****************************************************************** '
 		echo '***************** Working on subject '$sub'********************* '
 		echo '****************************************************************** '
 
-		recon-all -s ${prefix}${sub} -i $rawdata -autorecon1 -gcut
+		recon-all -s ${sub} -i $rawdata -autorecon1 -gcut
 
 		echo '****************************************************************** '
 		echo '****************** finished subject '$sub'********************** '
