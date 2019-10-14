@@ -3,8 +3,7 @@
 # Usage: run_recon23 subjectFolder [subjectFolder subjectFolder...]
 # subjectFolder =  the subject's folder name (e.g. 001-T1). Multiple can be entered at once.
 
-setenv SUBJECTS_DIR /home/camachocm2/Analysis/aggregate_anats/temp_Subjdir
-setenv moochie_dir /moochie/Cat/Aggregate_anats/subjects_dir/
+setenv SUBJECTS_DIR /Users/dendrite/Desktop/Jay/freesurfer
 
 foreach sub ($argv)
 
@@ -14,7 +13,7 @@ echo '******************* Working on subject '$sub' ********************* '
 echo '****************************************************************** '
 echo '****************************************************************** '
 
-recon-all -s $sub -autorecon2 -autorecon3 -parallel -openmp 3
+recon-all -s $sub -autorecon2 -autorecon3 #-parallel -openmp 4
 
 
 echo '****************************************************************** '
@@ -23,5 +22,4 @@ echo '******************** finished subject '$sub' ********************** '
 echo '****************************************************************** '
 echo '****************************************************************** '
 
-mv ${SUBJECTS_DIR}/${sub}  ${moochie_dir}
 end

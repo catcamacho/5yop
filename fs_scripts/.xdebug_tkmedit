@@ -1,10 +1,10 @@
-tkmedit started: Mon Oct  7 13:55:01 2019
+tkmedit started: Fri Oct 11 12:56:02 2019
 
-	/Applications/freesurfer/tktools/tkmedit.bin t1w_1 brainmask.mgz lh.white -aux wm.mgz -aux-surface rh.white -tcl /Users/dendrite/Desktop/Jay/5yop/fs_scripts/tkmedit_WMedit.tcl 
+	/Applications/freesurfer/tktools/tkmedit.bin t1w_chec brainmask.mgz lh.white -aux wm.mgz -aux-surface rh.white -tcl /Users/dendrite/Desktop/Jay/5yop/fs_scripts/tkmedit_WMedit.tcl 
 
 $Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name:  $
 Set user home dir to /Users/dendrite/Desktop/Jay/5yop/fs_scripts
-Set subject home dir to /Users/dendrite/Desktop/Jay/freesurfer/t1w_1
+Set subject home dir to /Users/dendrite/Desktop/Jay/freesurfer/t1w_chec
 Error 5 in Surf_New: Error loading surface (MRISread).
 Error in ParseCmdLineArgs( argc=10, argv=/Applications/freesurfer/tktools/tkmedit.bin ) (line 3744)
 	while Creating surface

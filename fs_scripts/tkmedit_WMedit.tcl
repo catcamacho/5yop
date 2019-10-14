@@ -6,7 +6,7 @@ SetVolumeMinMax 0 0 255
 SetVolumeMinMax 1 0 255
 
 #SetVolumeBrightnessContrast (0=main 1=aux) brightness (0-1) contrast (0-30)
-SetVolumeBrightnessContrast 0 .27 14
+SetVolumeBrightnessContrast 0 .31 14
 
 # The active tool(0=Navigate 1=Select Voxels 2=Edit Voxels 3=Edit Segmentation 4=Edit Control Points)
 SetTool 2
