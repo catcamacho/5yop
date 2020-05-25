@@ -1,40 +1,10 @@
-tkmedit started: Fri Oct 11 12:56:02 2019
+tkmedit started: Sun May 24 17:06:05 2020
 
-	/Applications/freesurfer/tktools/tkmedit.bin t1w_chec brainmask.mgz lh.white -aux wm.mgz -aux-surface rh.white -tcl /Users/dendrite/Desktop/Jay/5yop/fs_scripts/tkmedit_WMedit.tcl 
+	/usr/local/pkg/freesurfer/tktools/tkmedit.bin 3000 brainmask.mgz lh.white -aux wm.mgz -aux-surface rh.white -tcl /data/perlman/moochie/user_data/CamachoCat/5YOP/5yop/fs_scripts/tkmedit_WMedit.tcl 
 
-$Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name:  $
-Set user home dir to /Users/dendrite/Desktop/Jay/5yop/fs_scripts
-Set subject home dir to /Users/dendrite/Desktop/Jay/freesurfer/t1w_chec
-Error 5 in Surf_New: Error loading surface (MRISread).
-Error in ParseCmdLineArgs( argc=10, argv=/Applications/freesurfer/tktools/tkmedit.bin ) (line 3744)
-	while Creating surface
-	Error 10: Couldn't load the surface.
-xDebug stack (length: 4)
-        03: LoadSurface( iType=0, isName=lh.white )
-        03: Creating surface
-      02: ParseCmdLineArgs( argc=10, argv=/Applications/freesurfer/tktools/tkmedit.bin )
-      02: Loading surface
-    01: main()
-    01: Parsing command line arguments
-  00: 
-  00: 
-ERROR: Loading Surface lh.white
-   Couldn't load the surface.
-Error 5 in Surf_New: Error loading surface (MRISread).
-Error in ParseCmdLineArgs( argc=10, argv=/Applications/freesurfer/tktools/tkmedit.bin ) (line 3744)
-	while Creating surface
-	Error 10: Couldn't load the surface.
-xDebug stack (length: 4)
-        03: LoadSurface( iType=1, isName=rh.white )
-        03: Creating surface
-      02: ParseCmdLineArgs( argc=10, argv=/Applications/freesurfer/tktools/tkmedit.bin )
-      02: Loading aux surface
-    01: main()
-    01: Parsing command line arguments
-  00: 
-  00: 
-ERROR: Loading Surface rh.white
-   Couldn't load the surface.
-Using interface file /Applications/freesurfer/tktools/tkmedit.tcl
+$Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name: stable6 $
+Set user home dir to /data/perlman/moochie/user_data/CamachoCat/5YOP/5yop/fs_scripts
+Set subject home dir to /data/perlman/moochie/user_data/CamachoCat/5YOP/proc/hcp_proc/3000/T1w/3000
+Using interface file /usr/local/pkg/freesurfer/tktools/tkmedit.tcl
 Tcl: Successfully parsed tkmedit.tcl
 Tcl: Successfully parsed tkm_functional.tcl
