@@ -1,10 +1,10 @@
-tkmedit started: Sun May 24 17:06:05 2020
+tkmedit started: Wed Jan 13 10:37:20 2021
 
-	/usr/local/pkg/freesurfer/tktools/tkmedit.bin 3000 brainmask.mgz lh.white -aux wm.mgz -aux-surface rh.white -tcl /data/perlman/moochie/user_data/CamachoCat/5YOP/5yop/fs_scripts/tkmedit_WMedit.tcl 
+	/usr/local/pkg/freesurfer/tktools/tkmedit.bin 4000 brainmask.mgz lh.white -aux wm.mgz -aux-surface rh.white -tcl /data/perlman/moochie/user_data/CamachoCat/5YOP/5yop/fs_scripts/tkmedit_WMedit.tcl 
 
 $Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name: stable6 $
 Set user home dir to /data/perlman/moochie/user_data/CamachoCat/5YOP/5yop/fs_scripts
-Set subject home dir to /data/perlman/moochie/user_data/CamachoCat/5YOP/proc/hcp_proc/3000/T1w/3000
+Set subject home dir to /data/perlman/moochie/user_data/CamachoCat/5YOP/proc/hcp_proc/4000/T1w/4000
 Using interface file /usr/local/pkg/freesurfer/tktools/tkmedit.tcl
 Tcl: Successfully parsed tkmedit.tcl
 Tcl: Successfully parsed tkm_functional.tcl
